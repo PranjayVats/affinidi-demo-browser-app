@@ -52,7 +52,7 @@ export default function Signup(props) {
         
       if(isBBSChecked)
         keyTypes.push("bbs")
-      const opions = {
+      const options = {
         "didMethod": "elem"
       }
       if(keyTypes.length !== 0)
